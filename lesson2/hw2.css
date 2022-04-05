@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 300px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.widgets {
+    font-size: 25px;
+    height: 150px;
+    background: cornflowerblue;
+
+    box-sizing: border-box;
+
+    margin: 5px;
+    padding: 55px 100px;
+}
+
+.widgets-box {
+    height: 100px;
+    display: flex;
+}
+
+.widget {
+    width: calc(100% / 3);
+    height: 100%;
+    background: #4157a1;
+    font-size: 13px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    height: 300px;
+    background: cornflowerblue;
+    font-size: 25px;
+
+    box-sizing: border-box;
+    padding: 125px 100px;
+    margin: 5px;
+}
+
