@@ -27,10 +27,12 @@ body{
 .title{
   font-size: 18px;
   font-weight: bold;
+  font-family: "Calibri", sans-serif;
 
 }
 .text{
   color: #5a5757;
+  font-family: "Calibri", sans-serif;
 }
 .link{
   height: 35px;
