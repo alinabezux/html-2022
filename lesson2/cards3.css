@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 800px;
+    height: 100vh;
+    background: #08bcd4;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    padding:55px 40px ;
+}
+.element{
+    width: 350px;
+    height: 100px;
+    background: #f8f1f1;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+}
+.fa-pen-to-square,.fa-arrow-pointer,.fa-crop,.fa-wordpress,.fa-google,.fa-facebook{
+    color: #aaa4a4;
+    font-size: 35px;
+
+    padding-left: 15px;
+
+}
+.description{
+    padding: 15px ;
+}
+
+.title{
+    color: #ff9229;
+    font-size: 18px;
+    font-family: "Calibri", serif;
+    font-weight: bold;
+}
+
+.text{
+    color: #aaa4a4;
+    font-size: 13px;
+    font-family: "Calibri", serif;
+
+    padding-top: 5px;
+}
